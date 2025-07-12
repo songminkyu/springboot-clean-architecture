@@ -1,0 +1,14 @@
+rootProject.name = 'conductor'
+
+include 'adapter'
+include 'adapter:controller'
+include 'adapter:mysql'
+include 'adapter:in-memory'
+
+include 'application'
+include 'application:spring-boot-app'
+
+include 'domain'
+
+include 'usecase'
+

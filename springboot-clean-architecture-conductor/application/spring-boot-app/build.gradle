@@ -1,0 +1,13 @@
+dependencies {
+    // in
+    implementation project(':adapter:controller')
+
+    // out
+    implementation project(':adapter:in-memory')
+    implementation project(':adapter:mysql')
+
+    // domain
+    implementation project(':usecase')
+
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+}

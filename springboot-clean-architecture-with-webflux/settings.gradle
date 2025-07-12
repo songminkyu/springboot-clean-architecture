@@ -1,0 +1,6 @@
+rootProject.name = 'spring-clean-architecture-template'
+include 'entity'
+include 'use-case'
+include 'infrastructure'
+include 'presenter'
+include 'config'
